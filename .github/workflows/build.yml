@@ -47,6 +47,9 @@ jobs:
       - name: Build
         id: cmake_build
         run: |
+          echo "zjy 1"
+          dir
+          pwd
           act1.bat
 
      
