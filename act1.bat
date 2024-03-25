@@ -1,7 +1,6 @@
 
 IF not exist build (mkdir build)
 cd build
-cd xxx
 if %errorlevel% neq 0 goto ERROR
 
 
